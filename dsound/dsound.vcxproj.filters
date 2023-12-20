@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="プロセス">
+      <UniqueIdentifier>{81bb8e6f-5fc4-4e81-ad5a-05ba0537930a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ファイル">
+      <UniqueIdentifier>{23f89810-606d-4386-b919-834be8341662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フック関数置き換え系">
+      <UniqueIdentifier>{a9d3faae-10c4-42d5-a808-2ed9adf2ac36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フック関数ダイレクト">
+      <UniqueIdentifier>{88d2cca8-cb1c-47ce-9144-1ab2c8bf66a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ウィンドウ">
+      <UniqueIdentifier>{bef83d29-f9e9-4dd7-be30-5327c832f76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="デバッグ出力">
+      <UniqueIdentifier>{a07d5591-c9fe-4ba7-9ac5-5cfc6d5626cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="メニュー">
+      <UniqueIdentifier>{24c529a7-e0f2-4fc0-a099-5f808eab4a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BGM">
+      <UniqueIdentifier>{7113fcb0-535e-4b09-9d50-76f4ee393c0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsound.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="dllextern.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>プロセス</Filter>
+    </ClCompile>
+    <ClCompile Include="on_event.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fileexist.cpp">
+      <Filter>ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_functions_replace.cpp">
+      <Filter>フック関数置き換え系</Filter>
+    </ClCompile>
+    <ClCompile Include="game_processs.cpp">
+      <Filter>プロセス</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_defwindowproca_custom.cpp">
+      <Filter>フック関数置き換え系</Filter>
+    </ClCompile>
+    <ClCompile Include="game_window.cpp">
+      <Filter>ウィンドウ</Filter>
+    </ClCompile>
+    <ClCompile Include="output_debug_stream.cpp">
+      <Filter>デバッグ出力</Filter>
+    </ClCompile>
+    <ClCompile Include="bgm_noloop_issue_patch.cpp">
+      <Filter>BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_bgm_filename.cpp">
+      <Filter>BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_bgm3_filename.cpp">
+      <Filter>BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_functions_direct.cpp">
+      <Filter>フック関数ダイレクト</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dsound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginMod.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>プロセス</Filter>
+    </ClInclude>
+    <ClInclude Include="dllextern.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fileexist.h">
+      <Filter>ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game_process.h">
+      <Filter>プロセス</Filter>
+    </ClInclude>
+    <ClInclude Include="game_window.h">
+      <Filter>ウィンドウ</Filter>
+    </ClInclude>
+    <ClInclude Include="output_debug_stream.h">
+      <Filter>デバッグ出力</Filter>
+    </ClInclude>
+    <ClInclude Include="hook_functions_direct.h">
+      <Filter>フック関数ダイレクト</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dsound.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
