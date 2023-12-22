@@ -1,0 +1,17 @@
+﻿  bgm_noloop_issue_patch.cpp
+  dllmain.cpp
+  dllextern.cpp
+  fileexist.cpp
+  game_processs.cpp
+  game_window.cpp
+  hook_bgm3_filename.cpp
+  hook_bgm_filename.cpp
+  hook_defwindowproca_custom.cpp
+  hook_functions_direct.cpp
+  hook_functions_replace.cpp
+  on_event.cpp
+  output_debug_stream.cpp
+  process.cpp
+  コードを生成中...
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 未解決の外部シンボル _WinMain@16 が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
+G:\repogitory_jp\nobu7_mod_bgm_noplay_issue\Debug\dsound.exe : fatal error LNK1120: 1 件の未解決の外部参照
